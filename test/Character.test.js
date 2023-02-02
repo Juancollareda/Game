@@ -3,6 +3,13 @@ test('crear jugador',()=>{
     let game= new Game()
     expect(game.crearjugador(1)).toBe('jugador creado');
 })
-test('crear jugador',()=>{
-    createCanvas(300, 300);
+test('Mapa',()=>{
+
+    let game= new Game()
+
+    expect(game.nivel()).toStrictEqual([[],[],[]],
+                                       [[],[],[]],
+                                       [[],[],[]]);
+
+    
 })
