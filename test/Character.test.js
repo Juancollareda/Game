@@ -1,4 +1,5 @@
+const Game=require('../Game/Game.js')
 test('crear jugador',()=>{
-    
-    expect(Game.crearjugador(1)).tobe('jugador creado');
+    game=Game
+    expect(game.crearjugador(1)).tobe('jugador creado');
 })
