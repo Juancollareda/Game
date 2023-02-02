@@ -1,4 +1,5 @@
 const Game=require('../Game/Game')
 test('crear jugador',()=>{
-    expect(Game.crearjugador(1)).toBe('jugador creado');
+    let game= new Game()
+    expect(game.crearjugador(1)).toBe('jugador creado');
 })

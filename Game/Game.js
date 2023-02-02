@@ -9,4 +9,4 @@ function Game(){
 
 
 }
-exports.module=Game
+module.exports=Game
