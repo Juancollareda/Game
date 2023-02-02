@@ -5,6 +5,14 @@ function Game(){
 
         return 'jugador creado'
     }
+    this.nivel=function(num){
+
+
+        return([[],[],[]],
+               [[],[],[]],
+               [[],[],[]])
+    }
+
 
 
 
