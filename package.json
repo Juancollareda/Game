@@ -1,0 +1,26 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: Shoul run test with command npm run testpush\" && exit 1",
+    "testpush": "git add . && git commit -m \"TDD iteration\" && git push && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juancollareda/Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juancollareda/Game/issues"
+  },
+  "homepage": "https://github.com/Juancollareda/Game#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
