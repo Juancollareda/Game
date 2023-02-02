@@ -1,6 +1,6 @@
 
 function Game(){
-    this.crearjugador=function(){
+    this.crearjugador=function(num){
 
 
         return 'jugador creado'
