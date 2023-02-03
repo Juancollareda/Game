@@ -7,7 +7,7 @@ function Game(){
     }
     this.nivel=function(num){
 
-
+//  ╣ ║ ╗188╝
         return([[],[],[]],
                [[],[],[]],
                [[],[],[]])
