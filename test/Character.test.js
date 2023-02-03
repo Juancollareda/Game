@@ -1,3 +1,4 @@
+const Player=require('../Game/Player')
 const Game=require('../Game/Game')
 test('crear jugador',()=>{
     let game= new Game()
@@ -12,4 +13,11 @@ test('Mapa',()=>{
                                        [[],[],[]]);
 
     
+})
+test('move player',()=>{
+
+    let player= new Player
+    expect(game.nivel()).toStrictEqual() 
+
+
 })
