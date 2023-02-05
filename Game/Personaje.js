@@ -1,5 +1,5 @@
 function Personaje (mover){
-    this.mover=function(Pos){
+    Personaje.prototype.mover=function(Pos){
 
         return 'se me mueve 1 paso a la '+Pos
 
