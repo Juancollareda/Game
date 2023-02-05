@@ -1,6 +1,6 @@
-const Personaje = require('./Personaje')
 
-Personaje=require('../Game/Personaje')
+
+const Personaje=require('../Game/Personaje')
 
 function Enemigo ()
 {
