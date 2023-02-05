@@ -1,4 +1,4 @@
-function Personaje (mover){
+function Personaje (){
     this.mover=function(Pos){
 
         return 'se me mueve 1 paso a la '+Pos
