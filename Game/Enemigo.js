@@ -2,11 +2,11 @@
 
 const Personaje=require('../Game/Personaje')
 
-function Enemigo ()
+const Enemigo=function ()
 {
      
 }
 Enemigo.prototype=Object.create(Personaje.prototype)
-Enemigo.prototype.constructor=Personaje   
+
 
 module.exports=Enemigo
