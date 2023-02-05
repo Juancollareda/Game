@@ -2,7 +2,7 @@
 
 const Personaje=require('../Game/Personaje')
 
-let Enemigo=function ()
+function Enemigo()
 {
      this.mover= function(){
         return Enemigo.prototype
