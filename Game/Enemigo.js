@@ -4,7 +4,7 @@ const Personaje=require('../Game/Personaje')
 
 function Enemigo()
 {
-   this.mover=Personaje
+    Personaje.mover(this)
 }
 Enemigo.prototype=Object.create(Personaje.prototype)
 
