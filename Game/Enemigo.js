@@ -6,7 +6,7 @@ function Enemigo()
 {
    this.mover=Personaje
 }
-Enemigo.prototype=Object.create(Personaje.prototype.mover)
+Enemigo.prototype=Object.create(Personaje.prototype)
 
 
 module.exports=Enemigo
