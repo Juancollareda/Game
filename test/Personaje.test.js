@@ -1,4 +1,5 @@
 const Personaje=require('../Game/Personaje')
+const Enemigo = require('./Enemigo')
 test('Personaje se puede mover a la derecha',()=>{
     const personaje= new Personaje
     expect(personaje.mover('derecha')).toBe('se me mueve 1 paso a la derecha');
