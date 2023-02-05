@@ -1,7 +1,7 @@
 function Personaje (){
-    this.mover=function(){
+    this.mover=function(Pos){
 
-        return 'se me mueve 1 paso a la derecha'
+        return 'se me mueve'+Pos+'paso a la derecha'
 
     }
 

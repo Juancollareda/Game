@@ -5,5 +5,5 @@ test('Personaje se puede mover a la derecha',()=>{
 })
 test('Personaje se puede mover a la izquierda',()=>{
     const personaje= new Personaje
-    expect(personaje.mover()).toBe('se me mueve 1 paso a la izquierda');
+    expect(personaje.mover('izquierda')).toBe('se me mueve 1 paso a la izquierda');
 })
