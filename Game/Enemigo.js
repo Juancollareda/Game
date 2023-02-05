@@ -6,7 +6,7 @@ const Enemigo=function ()
 {
      
 }
-Enemigo.prototype=Object.create(Personaje.prototype)
+Enemigo.prototype=Personaje
 
 
 module.exports=Enemigo
