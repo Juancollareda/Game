@@ -8,7 +8,7 @@ function Enemigo()
         return Enemigo.prototype
      }
 }
-Enemigo.prototype=Object.create(Personaje.prototype)
+Enemigo.prototype=Object.create(Personaje.prototype.mover)
 
 
 module.exports=Enemigo
