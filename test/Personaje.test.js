@@ -14,5 +14,8 @@ test('enemigo se puede mover a la izquierda',()=>{
 })
 test('enemigo salta',()=>{
     const enemigo= new Enemigo
+    const personaje= new Personaje
+
     expect(enemigo.saltar()).toBe('salto enemigo');
+    expect(personaje.saltar()).toBe('salto enemigo');
 })
