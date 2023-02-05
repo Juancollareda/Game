@@ -7,3 +7,7 @@ test('Personaje se puede mover a la izquierda',()=>{
     const personaje= new Personaje
     expect(personaje.mover('izquierda')).toBe('se me mueve 1 paso a la izquierda');
 })
+test('enemigo se puede mover a la izquierda',()=>{
+    const enemigo= new Enemigo
+    expect(enemigo.mover('izquierda')).toBe('se me mueve 1 paso a la izquierda');
+})
