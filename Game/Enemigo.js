@@ -4,7 +4,7 @@ const Personaje=require('../Game/Personaje')
 
 function Enemigo()
 {
-    this.prototype.saltar=function{
+    this.prototype.saltar=function(){
 
         return "salto enemigo"
     }
