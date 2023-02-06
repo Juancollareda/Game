@@ -1,7 +1,9 @@
-function Personaje (nombre,edad,apellido){
+function Personaje (nombre,edad,apellido,vida){
     this.nombre=nombre
     this.edad=edad
     this.apellido=apellido
+    this.vida=vida
+    
     Personaje.prototype.mover=function(Pos){
 
         return 'se me mueve 1 paso a la '+Pos
