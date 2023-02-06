@@ -2,8 +2,9 @@
 
 const Personaje=require('../Game/Personaje')
 
-function Enemigo(nombre,edad,apellido)
+function Enemigo(nombre,edad,apellido,)
 {
+    this.vida=100
     this.nombre=nombre
     this.edad=edad
     this.apellido=apellido
