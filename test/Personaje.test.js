@@ -47,5 +47,5 @@ test('contador',()=>{
     const contador2= Contador
     expect(contador.increment()).toBe(0);
     expect(contador2.increment()).toBe(1);
-    expect(contador1.increment()).toBe(2);
+    expect(contador.increment()).toBe(2);
 })
