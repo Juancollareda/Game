@@ -36,6 +36,8 @@ test('enemigo se recibe dano',()=>{
 test('error no es num',()=>{
     const enemigo= new Enemigo('juan',11,'sanchez')
  
-    expect(enemigo.dano('hola')).toBe('no es numero');
+    expect(()=>{
+        enemigo.dano('no')
+    }).toThrow('no es numero');
     
 })
