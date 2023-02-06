@@ -1,7 +1,7 @@
 function Personaje (nombre,edad,apellido){
-    Personaje.prototype.nombre=nombre
-    Personaje.prototype.edad=edad
-    Personaje.prototype.apellido=apellido
+    this.nombre=nombre
+    this.edad=edad
+    this.apellido=apellido
     Personaje.prototype.mover=function(Pos){
 
         return 'se me mueve 1 paso a la '+Pos
