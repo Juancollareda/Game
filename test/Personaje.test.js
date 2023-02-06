@@ -26,5 +26,5 @@ test('capturar error',()=>{
 })
 test('enemigo se presenta',()=>{
     const enemigo= new enemigo('juan',11,'sanchez')
-    expect(personaje.mover('derecha')).toBe('se me mueve 1 paso a la derecha');
+    expect(enemigo.presentar()).toBe('juan sanchez edad'+11);
 })
