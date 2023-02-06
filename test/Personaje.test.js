@@ -45,6 +45,6 @@ test('error no es num',()=>{
 test('contador',()=>{
     const contador=  Contador
     const contador2= Contador
-    expect(contador.incrementar()).toBe(1);
-    expect(contador2.incrementar()).toBe(2);
+    expect(contador.increment()).toBe(1);
+    expect(contador2.increment()).toBe(2);
 })
