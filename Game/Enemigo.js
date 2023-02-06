@@ -2,7 +2,7 @@
 
 const Personaje=require('../Game/Personaje')
 
-function Enemigo()
+function Enemigo(nombre,edad,apellido)
 {
     Enemigo.prototype.saltar=function(){
 
