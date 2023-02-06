@@ -8,7 +8,7 @@ function Personaje (nombre,edad,apellido){
 
     }
     Personaje.prototype.presentar=function(){
-        return this.nombre+''+this.apellido+''+this.edad
+        return this.nombre+' '+this.apellido+' '+'edad'+this.edad
     }
 
 
