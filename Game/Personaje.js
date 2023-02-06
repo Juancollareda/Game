@@ -7,7 +7,7 @@ function Personaje (nombre,edad,apellido){
         return 'se me mueve 1 paso a la '+Pos
 
     }
-    Personaje.prototype.presntar=function(){
+    Personaje.prototype.presentar=function(){
         return this.nombre+''+this.apellido+''+this.edad
     }
 
