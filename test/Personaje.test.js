@@ -17,5 +17,14 @@ test('enemigo salta',()=>{
     const personaje= new Personaje
 
     expect(enemigo.saltar()).toBe('salto enemigo');
-    expect(personaje.saltar()).toBe('salto enemigo');
+})
+test('capturar error',()=>{
+    const enemigo= new Enemigo
+    const personaje= new Personaje
+
+    expect(enemigo.saltar()).toBe('salto enemigo');
+})
+test('enemigo se presenta',()=>{
+    const enemigo= new enemigo('juan',11,'sanchez')
+    expect(personaje.mover('derecha')).toBe('se me mueve 1 paso a la derecha');
 })
