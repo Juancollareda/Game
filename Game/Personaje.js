@@ -16,7 +16,7 @@ function Personaje (nombre,edad,apellido){
         if(typeof atack == 'number'){
             this.vida=this.vida-atack    
         }else{
-            throw new Error("no es numer")
+            throw new Error("no es numero")
         }
         
     }
