@@ -13,7 +13,12 @@ function Personaje (nombre,edad,apellido){
         return this.nombre+' '+this.apellido+' '+'edad'+this.edad
     }
     Personaje.prototype.dano=function(atack){
-        this.vida=this.vida-atack
+        if(typeof atack == 'number'){
+            this.vida=this.vida-atack    
+        }else{
+            throw new Error("no es numer")
+        }
+        
     }
     Personaje.prototype.mostrarvida=function(){
         return this.vida
