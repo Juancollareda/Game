@@ -1,5 +1,6 @@
 const Personaje=require('../Game/Personaje')
 const Enemigo = require('../Game/Enemigo')
+const Contador=require('../Game/contador')
 test('Personaje se puede mover a la derecha',()=>{
     const personaje= new Personaje
     expect(personaje.mover('derecha')).toBe('se me mueve 1 paso a la derecha');
@@ -40,4 +41,10 @@ test('error no es num',()=>{
         enemigo.dano('no')
     }).toThrow('no es numero');
     
+})
+test('contador',()=>{
+    const contador= new Contador()
+    const contador2= new Contador()
+    expect(contador.incrementar()).toBe(1);
+    expect(contador2.incrementar()).toBe(2);
 })
