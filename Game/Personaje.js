@@ -13,10 +13,10 @@ function Personaje (nombre,edad,apellido){
         return this.nombre+' '+this.apellido+' '+'edad'+this.edad
     }
     Personaje.prototype.dano=function(){
-        return this.nombre+' '+this.apellido+' '+'edad'+this.edad
+        this.vida=this.vida-atack
     }
     Personaje.prototype.mostrarvida=function(atack){
-        return this.vida-atack
+        return this.vida
     }
 
 

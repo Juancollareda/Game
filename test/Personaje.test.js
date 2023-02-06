@@ -28,3 +28,8 @@ test('enemigo se presenta',()=>{
     const enemigo= new Enemigo('juan',11,'sanchez')
     expect(enemigo.presentar()).toBe('juan sanchez edad'+11);
 })
+test('enemigo se recibe dano',()=>{
+    const enemigo= new Enemigo('juan',11,'sanchez')
+    enemigo.dano(10)
+    expect(enemigo.mostrarvida()).toBe(90);
+})
