@@ -25,6 +25,6 @@ test('capturar error',()=>{
     expect(enemigo.saltar()).toBe('salto enemigo');
 })
 test('enemigo se presenta',()=>{
-    const enemigo= new enemigo('juan',11,'sanchez')
+    const enemigo= new Enemigo('juan',11,'sanchez')
     expect(enemigo.presentar()).toBe('juan sanchez edad'+11);
 })
