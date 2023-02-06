@@ -38,6 +38,6 @@ test('error no es num',()=>{
  
     expect(() => {
         enemigo.dano('hola')
-      }).toThrow('no es asdasdnumero');
+      }).toThrow('no es numero');
     
 })
